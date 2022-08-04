@@ -1,0 +1,66 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+#ribbon{
+    background-color: rgba(38, 38, 236, 0.795);
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(211, 214, 13, 0.5) 40px);
+
+}
+
+#ribbon::after{
+    content: "";
+    background-color: transparent;
+    display: block;
+    height: 20px;
+    width: 50%;
+    margin: 0 auto;
+    position: relative;
+    left: auto;
+    margin-top: -40px;
+
+}
+
+#rock{
+    background-color: rgb(59, 158, 158);
+    position: relative;
+    margin-top: -20px;
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    border-radius: 1%;
+}
+
+#rock img{
+    position: relative;
+    margin-top: -40px;
+}
+.text-shadow{
+    text-shadow: 0 3px 3px rgba(0,0,0,0.6); 
+}
+
+#separador-rock{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+}
+
+#separador-rock .content{
+    width: 150%;
+    height: 100px;
+    margin-left: -25%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+
+}
+
+#main-inerales{
+    background-color: rgba(34, 34, 63, 0.795);
+    background-image: repeating-linear-gradient(45deg, transparent, transparent 25px, rgba(211, 214, 13, 0.5) 40px);
+}
+
+#piedras_pres{
+    margin-left: 10%;
+}
